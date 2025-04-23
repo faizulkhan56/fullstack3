@@ -41,11 +41,12 @@ services:
     depends_on:
       backend:
         condition: service_started
-    volumes:
-      - ./frontend:/app
     environment:
       REACT_APP_BACKEND_URL: http://52.90.148.79:5000
-    command: npm start
+    command: serve -s build -l 3000
+    # Commented out the volume to avoid overwriting node_modules
+    # volumes:
+    #   - ./frontend:/app
 
 volumes:
   db_data:
