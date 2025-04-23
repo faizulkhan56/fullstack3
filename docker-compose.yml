@@ -44,7 +44,7 @@ services:
     volumes:
       - ./frontend:/app
     environment:
-      REACT_APP_BACKEND_URL: http://18.234.81.156:5000
+      REACT_APP_BACKEND_URL: http://52.90.148.79:5000
     command: npm start
 
 volumes:
