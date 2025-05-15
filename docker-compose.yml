@@ -42,7 +42,7 @@ services:
       backend:
         condition: service_started
     environment:
-      REACT_APP_BACKEND_URL: http://34.229.164.252:5000
+      REACT_APP_BACKEND_URL: http://54.209.200.51:5000
     command: serve -s build -l 3000
     # Commented out the volume to avoid overwriting node_modules
     # volumes:
