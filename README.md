@@ -1,4 +1,4 @@
-# Running a Fullstack App Using Docker Compose
+# Running a Fullstack App Using Docker Compose2
 
 This guide provides step-by-step instructions on how to run a full-stack React and Node.js application using Docker Compose. The app consists of a React frontend, a Node.js backend, and a MySQL database.
 
